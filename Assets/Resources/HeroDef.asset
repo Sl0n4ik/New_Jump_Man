@@ -1,0 +1,455 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa4eefe3bccedeb4380a36c56aa7ef9c, type: 3}
+  m_Name: HeroDef
+  m_EditorClassIdentifier: 
+  _elements:
+  - _name: Main
+    _spriteForUI: {fileID: 21300000, guid: 1be90203669ca804fb246e67e2a69f96, type: 3}
+    _animations:
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: 21300000, guid: 1be90203669ca804fb246e67e2a69f96, type: 3}
+    - _nameAnimation: Jump
+      _sprites:
+      - {fileID: 579101182, guid: 3a08e645e7e34d142b601029cdfa05e6, type: 3}
+      - {fileID: 646622015, guid: 3a08e645e7e34d142b601029cdfa05e6, type: 3}
+      - {fileID: 66222282, guid: 3a08e645e7e34d142b601029cdfa05e6, type: 3}
+      - {fileID: 907632551, guid: 3a08e645e7e34d142b601029cdfa05e6, type: 3}
+      - {fileID: 823788976, guid: 3a08e645e7e34d142b601029cdfa05e6, type: 3}
+    _rare: 150
+    _isPurchased: 1
+  - _name: Axolotl
+    _spriteForUI: {fileID: 21300000, guid: c827e517daf24904682a840330949a66, type: 3}
+    _animations:
+    - _nameAnimation: Jump
+      _sprites:
+      - {fileID: -1324973548, guid: 57cda44582282fe419fe6bed7d0a4055, type: 3}
+      - {fileID: 120726877, guid: 57cda44582282fe419fe6bed7d0a4055, type: 3}
+      - {fileID: 1065645200, guid: 57cda44582282fe419fe6bed7d0a4055, type: 3}
+      - {fileID: 1775416256, guid: 57cda44582282fe419fe6bed7d0a4055, type: 3}
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: 21300000, guid: c827e517daf24904682a840330949a66, type: 3}
+    _rare: 300
+    _isPurchased: 1
+  - _name: Black Paladin
+    _spriteForUI: {fileID: 21300000, guid: e5c0487ca1c314146b216e995a57798f, type: 3}
+    _animations:
+    - _nameAnimation: Jump
+      _sprites:
+      - {fileID: -258179509, guid: 7e45251e3afa63c4bae81d710c680293, type: 3}
+      - {fileID: -1887480063, guid: 7e45251e3afa63c4bae81d710c680293, type: 3}
+      - {fileID: 1070310141, guid: 7e45251e3afa63c4bae81d710c680293, type: 3}
+      - {fileID: -679004514, guid: 7e45251e3afa63c4bae81d710c680293, type: 3}
+      - {fileID: 2018646538, guid: 7e45251e3afa63c4bae81d710c680293, type: 3}
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: 21300000, guid: e5c0487ca1c314146b216e995a57798f, type: 3}
+    _rare: 300
+    _isPurchased: 1
+  - _name: Boxer
+    _spriteForUI: {fileID: 21300000, guid: f63b543b847d910429769a6129bc2ccd, type: 3}
+    _animations:
+    - _nameAnimation: Jump
+      _sprites:
+      - {fileID: 1108545369, guid: 7cc25dc2d3de83f4788a5a31e1b73f67, type: 3}
+      - {fileID: -905154346, guid: 7cc25dc2d3de83f4788a5a31e1b73f67, type: 3}
+      - {fileID: 1213534485, guid: 7cc25dc2d3de83f4788a5a31e1b73f67, type: 3}
+      - {fileID: 1780251221, guid: 7cc25dc2d3de83f4788a5a31e1b73f67, type: 3}
+      - {fileID: -29500315, guid: 7cc25dc2d3de83f4788a5a31e1b73f67, type: 3}
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: 21300000, guid: f63b543b847d910429769a6129bc2ccd, type: 3}
+    _rare: 300
+    _isPurchased: 1
+  - _name: Cat Girl
+    _spriteForUI: {fileID: 21300000, guid: 24293761310efdd43a71d7edef832c74, type: 3}
+    _animations:
+    - _nameAnimation: Jump
+      _sprites:
+      - {fileID: -1999299898, guid: dd82ba67985a1b14cac2add65bede673, type: 3}
+      - {fileID: -1885209845, guid: dd82ba67985a1b14cac2add65bede673, type: 3}
+      - {fileID: -41287531, guid: dd82ba67985a1b14cac2add65bede673, type: 3}
+      - {fileID: 903202255, guid: dd82ba67985a1b14cac2add65bede673, type: 3}
+      - {fileID: 905575064, guid: dd82ba67985a1b14cac2add65bede673, type: 3}
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: 21300000, guid: 24293761310efdd43a71d7edef832c74, type: 3}
+    _rare: 150
+    _isPurchased: 0
+  - _name: Detectiv
+    _spriteForUI: {fileID: 21300000, guid: c49b42d0b493dbb47906876dc320291b, type: 3}
+    _animations:
+    - _nameAnimation: Jump
+      _sprites:
+      - {fileID: -1854915113, guid: 89fb44ba308b1a3418bfe6e7e15a2e5a, type: 3}
+      - {fileID: 687713666, guid: 89fb44ba308b1a3418bfe6e7e15a2e5a, type: 3}
+      - {fileID: 1103212460, guid: 89fb44ba308b1a3418bfe6e7e15a2e5a, type: 3}
+      - {fileID: -2106873038, guid: 89fb44ba308b1a3418bfe6e7e15a2e5a, type: 3}
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: 21300000, guid: c49b42d0b493dbb47906876dc320291b, type: 3}
+    _rare: 300
+    _isPurchased: 0
+  - _name: Fish
+    _spriteForUI: {fileID: 21300000, guid: a452fddce32373f4bbd17eedc3977d93, type: 3}
+    _animations:
+    - _nameAnimation: Jump
+      _sprites:
+      - {fileID: -803908913, guid: f8d28b55de29daa47a19e249835b617d, type: 3}
+      - {fileID: -1475502928, guid: f8d28b55de29daa47a19e249835b617d, type: 3}
+      - {fileID: -1361921440, guid: f8d28b55de29daa47a19e249835b617d, type: 3}
+      - {fileID: -1331557304, guid: f8d28b55de29daa47a19e249835b617d, type: 3}
+      - {fileID: -1657865534, guid: f8d28b55de29daa47a19e249835b617d, type: 3}
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: 21300000, guid: a452fddce32373f4bbd17eedc3977d93, type: 3}
+    _rare: 500
+    _isPurchased: 1
+  - _name: Fruit Man
+    _spriteForUI: {fileID: 21300000, guid: 8a8a7fa22b79a49439e35f1839271ce5, type: 3}
+    _animations:
+    - _nameAnimation: Jump
+      _sprites:
+      - {fileID: -1672162821, guid: 103d8bf2a95f8844399597a0a2f14f0c, type: 3}
+      - {fileID: -1727268930, guid: 103d8bf2a95f8844399597a0a2f14f0c, type: 3}
+      - {fileID: 1929599286, guid: 103d8bf2a95f8844399597a0a2f14f0c, type: 3}
+      - {fileID: -1824159319, guid: 103d8bf2a95f8844399597a0a2f14f0c, type: 3}
+      - {fileID: 1981250825, guid: 103d8bf2a95f8844399597a0a2f14f0c, type: 3}
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: 21300000, guid: 8a8a7fa22b79a49439e35f1839271ce5, type: 3}
+    _rare: 300
+    _isPurchased: 0
+  - _name: Gem Golem
+    _spriteForUI: {fileID: 21300000, guid: 4a2c4d9ef6c98024998e7e9178c70af8, type: 3}
+    _animations:
+    - _nameAnimation: Jump
+      _sprites:
+      - {fileID: 1481102288, guid: 3bb2414ed9b09d34eb49b0f7c0c44c48, type: 3}
+      - {fileID: -254437877, guid: 3bb2414ed9b09d34eb49b0f7c0c44c48, type: 3}
+      - {fileID: 758571417, guid: 3bb2414ed9b09d34eb49b0f7c0c44c48, type: 3}
+      - {fileID: 793004444, guid: 3bb2414ed9b09d34eb49b0f7c0c44c48, type: 3}
+      - {fileID: -92311724, guid: 3bb2414ed9b09d34eb49b0f7c0c44c48, type: 3}
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: 21300000, guid: 4a2c4d9ef6c98024998e7e9178c70af8, type: 3}
+    _rare: 500
+    _isPurchased: 1
+  - _name: Hagi-vagi
+    _spriteForUI: {fileID: 21300000, guid: d84143b0d39368f4086d3c9c40156ecd, type: 3}
+    _animations:
+    - _nameAnimation: Jump
+      _sprites:
+      - {fileID: 1812325563, guid: f8b49d08c0557e6428173fd2d298b5e3, type: 3}
+      - {fileID: -1849645926, guid: f8b49d08c0557e6428173fd2d298b5e3, type: 3}
+      - {fileID: 174960547, guid: f8b49d08c0557e6428173fd2d298b5e3, type: 3}
+      - {fileID: -952179922, guid: f8b49d08c0557e6428173fd2d298b5e3, type: 3}
+      - {fileID: 1340817766, guid: f8b49d08c0557e6428173fd2d298b5e3, type: 3}
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: 21300000, guid: d84143b0d39368f4086d3c9c40156ecd, type: 3}
+    _rare: 150
+    _isPurchased: 0
+  - _name: Jentleman
+    _spriteForUI: {fileID: 21300000, guid: be2bf8189daa99447b2a544a0ac9b42d, type: 3}
+    _animations:
+    - _nameAnimation: Jump
+      _sprites:
+      - {fileID: 779543684, guid: 3c0b3b099217bbf46a5607c6af6c6d42, type: 3}
+      - {fileID: 1450751247, guid: 3c0b3b099217bbf46a5607c6af6c6d42, type: 3}
+      - {fileID: -221700888, guid: 3c0b3b099217bbf46a5607c6af6c6d42, type: 3}
+      - {fileID: 803111918, guid: 3c0b3b099217bbf46a5607c6af6c6d42, type: 3}
+      - {fileID: 328986329, guid: 3c0b3b099217bbf46a5607c6af6c6d42, type: 3}
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: 21300000, guid: be2bf8189daa99447b2a544a0ac9b42d, type: 3}
+    _rare: 150
+    _isPurchased: 0
+  - _name: Miner
+    _spriteForUI: {fileID: 21300000, guid: 1b4deb582ab63ec4fb09892f6c8ca033, type: 3}
+    _animations:
+    - _nameAnimation: Jump
+      _sprites:
+      - {fileID: 7254953, guid: f877918a31aaefa48b0201daa307c888, type: 3}
+      - {fileID: -1366570232, guid: f877918a31aaefa48b0201daa307c888, type: 3}
+      - {fileID: 554511621, guid: f877918a31aaefa48b0201daa307c888, type: 3}
+      - {fileID: -566365758, guid: f877918a31aaefa48b0201daa307c888, type: 3}
+      - {fileID: 1521763672, guid: f877918a31aaefa48b0201daa307c888, type: 3}
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: 21300000, guid: 1b4deb582ab63ec4fb09892f6c8ca033, type: 3}
+    _rare: 150
+    _isPurchased: 0
+  - _name: Moryak
+    _spriteForUI: {fileID: 21300000, guid: 33d2285f7a0e69e46885d05628db7279, type: 3}
+    _animations:
+    - _nameAnimation: Jump
+      _sprites:
+      - {fileID: -1631392839, guid: 2f9f97aaad079ff4586c75ba0383aa76, type: 3}
+      - {fileID: -746613135, guid: 2f9f97aaad079ff4586c75ba0383aa76, type: 3}
+      - {fileID: 1208840630, guid: 2f9f97aaad079ff4586c75ba0383aa76, type: 3}
+      - {fileID: -1716355968, guid: 2f9f97aaad079ff4586c75ba0383aa76, type: 3}
+      - {fileID: 1016043780, guid: 2f9f97aaad079ff4586c75ba0383aa76, type: 3}
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: 21300000, guid: 33d2285f7a0e69e46885d05628db7279, type: 3}
+    _rare: 150
+    _isPurchased: 0
+  - _name: Mumiya
+    _spriteForUI: {fileID: 21300000, guid: 570417cfa3781fc42b1ad1b5158ed94c, type: 3}
+    _animations:
+    - _nameAnimation: Jump
+      _sprites:
+      - {fileID: -517907363, guid: b44597d4eea636f4cb207fef7cfbef26, type: 3}
+      - {fileID: -406877524, guid: b44597d4eea636f4cb207fef7cfbef26, type: 3}
+      - {fileID: 1458172409, guid: b44597d4eea636f4cb207fef7cfbef26, type: 3}
+      - {fileID: 67428146, guid: b44597d4eea636f4cb207fef7cfbef26, type: 3}
+      - {fileID: 768941139, guid: b44597d4eea636f4cb207fef7cfbef26, type: 3}
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: 21300000, guid: 570417cfa3781fc42b1ad1b5158ed94c, type: 3}
+    _rare: 300
+    _isPurchased: 0
+  - _name: Mushroom
+    _spriteForUI: {fileID: 21300000, guid: a42c7a390fe1a4945a974a312abf62fa, type: 3}
+    _animations:
+    - _nameAnimation: Jump
+      _sprites:
+      - {fileID: 930975406, guid: 2a2fb97cda584784594563d10ef99b40, type: 3}
+      - {fileID: 1645974647, guid: 2a2fb97cda584784594563d10ef99b40, type: 3}
+      - {fileID: -1127209809, guid: 2a2fb97cda584784594563d10ef99b40, type: 3}
+      - {fileID: -967779757, guid: 2a2fb97cda584784594563d10ef99b40, type: 3}
+      - {fileID: 1465960489, guid: 2a2fb97cda584784594563d10ef99b40, type: 3}
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: 21300000, guid: a42c7a390fe1a4945a974a312abf62fa, type: 3}
+    _rare: 500
+    _isPurchased: 0
+  - _name: Noob
+    _spriteForUI: {fileID: 21300000, guid: 8ab92ef005feeb845b113cf69c5856a1, type: 3}
+    _animations:
+    - _nameAnimation: Jump
+      _sprites:
+      - {fileID: -1972410624, guid: a4fff0e998e181e47b20dfc121d12cc8, type: 3}
+      - {fileID: -137758321, guid: a4fff0e998e181e47b20dfc121d12cc8, type: 3}
+      - {fileID: -49968784, guid: a4fff0e998e181e47b20dfc121d12cc8, type: 3}
+      - {fileID: -1815652880, guid: a4fff0e998e181e47b20dfc121d12cc8, type: 3}
+      - {fileID: -2135505384, guid: a4fff0e998e181e47b20dfc121d12cc8, type: 3}
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: 21300000, guid: 8ab92ef005feeb845b113cf69c5856a1, type: 3}
+    _rare: 150
+    _isPurchased: 0
+  - _name: Packman
+    _spriteForUI: {fileID: 21300000, guid: 85dc711ac812dd7489e3457adb3f5a15, type: 3}
+    _animations:
+    - _nameAnimation: Jump
+      _sprites:
+      - {fileID: -1022743578, guid: 5d253c62232e47e40be1392327dfc5e6, type: 3}
+      - {fileID: 1736239671, guid: 5d253c62232e47e40be1392327dfc5e6, type: 3}
+      - {fileID: 2142148907, guid: 5d253c62232e47e40be1392327dfc5e6, type: 3}
+      - {fileID: 1389711513, guid: 5d253c62232e47e40be1392327dfc5e6, type: 3}
+      - {fileID: 70402112, guid: 5d253c62232e47e40be1392327dfc5e6, type: 3}
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: 21300000, guid: 85dc711ac812dd7489e3457adb3f5a15, type: 3}
+    _rare: 150
+    _isPurchased: 0
+  - _name: Pank
+    _spriteForUI: {fileID: 21300000, guid: 490e6d2ffd7d38d4ebb9e617fed33289, type: 3}
+    _animations:
+    - _nameAnimation: Jump
+      _sprites:
+      - {fileID: 118268435, guid: 1bf3ce3c77d3f6c419def9dbaac0a00d, type: 3}
+      - {fileID: -1964421689, guid: 1bf3ce3c77d3f6c419def9dbaac0a00d, type: 3}
+      - {fileID: 1652900694, guid: 1bf3ce3c77d3f6c419def9dbaac0a00d, type: 3}
+      - {fileID: -2133641368, guid: 1bf3ce3c77d3f6c419def9dbaac0a00d, type: 3}
+      - {fileID: 1592447334, guid: 1bf3ce3c77d3f6c419def9dbaac0a00d, type: 3}
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: 21300000, guid: 490e6d2ffd7d38d4ebb9e617fed33289, type: 3}
+    _rare: 300
+    _isPurchased: 0
+  - _name: Pirat
+    _spriteForUI: {fileID: 21300000, guid: 921c6cbf150fc0c418be0bf8eb63afee, type: 3}
+    _animations:
+    - _nameAnimation: Jump
+      _sprites:
+      - {fileID: 1272996728, guid: 581800721c79a5c4187621890e4f64eb, type: 3}
+      - {fileID: 710734191, guid: 581800721c79a5c4187621890e4f64eb, type: 3}
+      - {fileID: 1327705497, guid: 581800721c79a5c4187621890e4f64eb, type: 3}
+      - {fileID: -1848242692, guid: 581800721c79a5c4187621890e4f64eb, type: 3}
+      - {fileID: -2068437618, guid: 581800721c79a5c4187621890e4f64eb, type: 3}
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: 21300000, guid: 921c6cbf150fc0c418be0bf8eb63afee, type: 3}
+    _rare: 300
+    _isPurchased: 0
+  - _name: Povar
+    _spriteForUI: {fileID: 21300000, guid: a81e896c0f18eca45a37bb7a29b7af73, type: 3}
+    _animations:
+    - _nameAnimation: Jump
+      _sprites:
+      - {fileID: -1232764996, guid: 8251a429204e70f479532cb7ddcd1a18, type: 3}
+      - {fileID: -451313468, guid: 8251a429204e70f479532cb7ddcd1a18, type: 3}
+      - {fileID: -2018817259, guid: 8251a429204e70f479532cb7ddcd1a18, type: 3}
+      - {fileID: -1133865025, guid: 8251a429204e70f479532cb7ddcd1a18, type: 3}
+      - {fileID: -1070275141, guid: 8251a429204e70f479532cb7ddcd1a18, type: 3}
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: 21300000, guid: a81e896c0f18eca45a37bb7a29b7af73, type: 3}
+    _rare: 500
+    _isPurchased: 0
+  - _name: Prison
+    _spriteForUI: {fileID: 21300000, guid: fc1634a3b409c5347a5894e169c04851, type: 3}
+    _animations:
+    - _nameAnimation: Jump
+      _sprites:
+      - {fileID: 1533857113, guid: 160da45c198813a4dac7bba04cb1573f, type: 3}
+      - {fileID: 227759891, guid: 160da45c198813a4dac7bba04cb1573f, type: 3}
+      - {fileID: -396261792, guid: 160da45c198813a4dac7bba04cb1573f, type: 3}
+      - {fileID: -393189546, guid: 160da45c198813a4dac7bba04cb1573f, type: 3}
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: 21300000, guid: fc1634a3b409c5347a5894e169c04851, type: 3}
+    _rare: 150
+    _isPurchased: 0
+  - _name: Rostok
+    _spriteForUI: {fileID: 21300000, guid: d7a7d5761154c124c98348bc955d5bf7, type: 3}
+    _animations:
+    - _nameAnimation: Jump
+      _sprites:
+      - {fileID: 124636191, guid: 15fd6e567a81b0740a6c86031cf91aed, type: 3}
+      - {fileID: -2057515276, guid: 15fd6e567a81b0740a6c86031cf91aed, type: 3}
+      - {fileID: -26476381, guid: 15fd6e567a81b0740a6c86031cf91aed, type: 3}
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: 21300000, guid: d7a7d5761154c124c98348bc955d5bf7, type: 3}
+    _rare: 500
+    _isPurchased: 0
+  - _name: Skilet
+    _spriteForUI: {fileID: 21300000, guid: ceb2a6d68d71ab24f8a1f9f82e920932, type: 3}
+    _animations:
+    - _nameAnimation: Jump
+      _sprites:
+      - {fileID: -707198984, guid: 3a71804f187fd3e409aac361a788967d, type: 3}
+      - {fileID: 69273799, guid: 3a71804f187fd3e409aac361a788967d, type: 3}
+      - {fileID: -1004802539, guid: 3a71804f187fd3e409aac361a788967d, type: 3}
+      - {fileID: 314026914, guid: 3a71804f187fd3e409aac361a788967d, type: 3}
+      - {fileID: 1449210498, guid: 3a71804f187fd3e409aac361a788967d, type: 3}
+      - {fileID: 791434241, guid: 3a71804f187fd3e409aac361a788967d, type: 3}
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: 21300000, guid: ceb2a6d68d71ab24f8a1f9f82e920932, type: 3}
+    _rare: 500
+    _isPurchased: 0
+  - _name: Snegovik
+    _spriteForUI: {fileID: 21300000, guid: b140bbb77fd583a41a369bd43490a1f9, type: 3}
+    _animations:
+    - _nameAnimation: Jump
+      _sprites:
+      - {fileID: 1499236033, guid: 652445b994354c441875a1b92a526d12, type: 3}
+      - {fileID: -2060162825, guid: 652445b994354c441875a1b92a526d12, type: 3}
+      - {fileID: -937868500, guid: 652445b994354c441875a1b92a526d12, type: 3}
+      - {fileID: -1039051464, guid: 652445b994354c441875a1b92a526d12, type: 3}
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: 21300000, guid: b140bbb77fd583a41a369bd43490a1f9, type: 3}
+    _rare: 500
+    _isPurchased: 1
+  - _name: Wizarad
+    _spriteForUI: {fileID: 21300000, guid: 1ac68f6921d52a04e9820fc4ad4f6426, type: 3}
+    _animations:
+    - _nameAnimation: Jump
+      _sprites:
+      - {fileID: -936918129, guid: 06fc030859a3950409987606ad090914, type: 3}
+      - {fileID: 381498409, guid: 06fc030859a3950409987606ad090914, type: 3}
+      - {fileID: 1044263060, guid: 06fc030859a3950409987606ad090914, type: 3}
+      - {fileID: 10960853, guid: 06fc030859a3950409987606ad090914, type: 3}
+      - {fileID: -529510809, guid: 06fc030859a3950409987606ad090914, type: 3}
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: 21300000, guid: 1ac68f6921d52a04e9820fc4ad4f6426, type: 3}
+    _rare: 500
+    _isPurchased: 0
+  - _name: TV
+    _spriteForUI: {fileID: 21300000, guid: 4dfb3bdc58f3a5a42a4b87f6067f0a3d, type: 3}
+    _animations:
+    - _nameAnimation: Jump
+      _sprites:
+      - {fileID: -1817147898, guid: b9d43314e27405f40819ad0b38e4289a, type: 3}
+      - {fileID: 1860794930, guid: b9d43314e27405f40819ad0b38e4289a, type: 3}
+      - {fileID: 1257489135, guid: b9d43314e27405f40819ad0b38e4289a, type: 3}
+      - {fileID: -695383200, guid: b9d43314e27405f40819ad0b38e4289a, type: 3}
+      - {fileID: 314087926, guid: b9d43314e27405f40819ad0b38e4289a, type: 3}
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: 21300000, guid: 4dfb3bdc58f3a5a42a4b87f6067f0a3d, type: 3}
+    _rare: 500
+    _isPurchased: 0
+  - _name: Austronaut
+    _spriteForUI: {fileID: 21300000, guid: 9c0badf88c37fa14ead82d440e9387b2, type: 3}
+    _animations:
+    - _nameAnimation: Jump
+      _sprites:
+      - {fileID: -1020594254, guid: 081566499ada62344a14f80d921176f1, type: 3}
+      - {fileID: -1411462878, guid: 081566499ada62344a14f80d921176f1, type: 3}
+      - {fileID: 187677598, guid: 081566499ada62344a14f80d921176f1, type: 3}
+      - {fileID: 2064644782, guid: 081566499ada62344a14f80d921176f1, type: 3}
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: 21300000, guid: 9c0badf88c37fa14ead82d440e9387b2, type: 3}
+    _rare: 300
+    _isPurchased: 0
+  _nameBaseElement: Main
+  _rareSettings:
+  - _rare: 150
+    _animations:
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: -750863474, guid: d454499f2e7330a4e8915907991a9337, type: 3}
+    - _nameAnimation: Open
+      _sprites:
+      - {fileID: -750863474, guid: d454499f2e7330a4e8915907991a9337, type: 3}
+      - {fileID: -1753385484, guid: d454499f2e7330a4e8915907991a9337, type: 3}
+      - {fileID: -71443786, guid: d454499f2e7330a4e8915907991a9337, type: 3}
+      - {fileID: 1122351005, guid: d454499f2e7330a4e8915907991a9337, type: 3}
+      - {fileID: 1136105117, guid: d454499f2e7330a4e8915907991a9337, type: 3}
+    _color: {r: 0, g: 0.41960788, b: 0.9294118, a: 1}
+  - _rare: 300
+    _animations:
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: -659694551, guid: b22cd4c2b45d356458704562095e9998, type: 3}
+    - _nameAnimation: Open
+      _sprites:
+      - {fileID: -659694551, guid: b22cd4c2b45d356458704562095e9998, type: 3}
+      - {fileID: -1690088329, guid: b22cd4c2b45d356458704562095e9998, type: 3}
+      - {fileID: 325436495, guid: b22cd4c2b45d356458704562095e9998, type: 3}
+      - {fileID: 1734108981, guid: b22cd4c2b45d356458704562095e9998, type: 3}
+      - {fileID: -50952114, guid: b22cd4c2b45d356458704562095e9998, type: 3}
+    _color: {r: 0.9294118, g: 0.37254903, b: 0.04705883, a: 1}
+  - _rare: 500
+    _animations:
+    - _nameAnimation: Idle
+      _sprites:
+      - {fileID: -613558547, guid: 787f84a7860bc5645880a3bf9064281d, type: 3}
+    - _nameAnimation: Open
+      _sprites:
+      - {fileID: -613558547, guid: 787f84a7860bc5645880a3bf9064281d, type: 3}
+      - {fileID: -143085242, guid: 787f84a7860bc5645880a3bf9064281d, type: 3}
+      - {fileID: -442439648, guid: 787f84a7860bc5645880a3bf9064281d, type: 3}
+      - {fileID: 1065311568, guid: 787f84a7860bc5645880a3bf9064281d, type: 3}
+      - {fileID: 2004149239, guid: 787f84a7860bc5645880a3bf9064281d, type: 3}
+    _color: {r: 0.52156866, g: 0, b: 0.9294118, a: 1}
